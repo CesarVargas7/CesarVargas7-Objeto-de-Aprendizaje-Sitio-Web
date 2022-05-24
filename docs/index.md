@@ -1,37 +1,39 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Código desarrollado por César Vargas-->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial scale=1.0">
+        <title>Objeto de Aprendizaje</title>
+        <link rel="stylesheet" href="estilo.css">
+        <link rel="icon" href="Imagenes/udg.png">
+    </head>
 
-You can use the [editor on GitHub](https://github.com/CesarVargas7/CesarVargas7-Objeto-de-Aprendizaje-Sitio-Web/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
+    <body>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="HTML/readMe.html">Léeme</a></li>
+                <li><a href="HTML/relaciona.html">Pruébame</a></li>
+                <li><a href="HTML/autoEva.html">Auto Evaluación</a></li>
+                <li><a href="HTML/Referencias.html">Referencias</a></li>
+            </ul>
+        </nav>
+        
+        <section class="contenido">
+            <h1>La Programación</h1><br>
+            <img src="Imagenes/udg.png" id="udg"><br>
+            <h2>Universidad de Guadalajara</h2>
+            <h2>Tecnólogo Profesional en Sistemas Informáticos</h2><br><br>
+            <p>Este sitio web está dedicado para dar una pequeña introducción a la programación, 
+                orientado especialmente a personas que no la conocen muy bien, o que apenas comienzan en el ámbito.</p><br>
+        </section>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/CesarVargas7/CesarVargas7-Objeto-de-Aprendizaje-Sitio-Web/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+        <footer>   
+                <br><h4>Software de Aplicación</h4><br>
+                <p>Creado por César Antonio Vargas Figueroa, perteneciente a la carrera TPSI, grupo 8A, turno matutino.
+                    Sin fines de lucro. 05/2022</p>
+                    <p>Se sugiere usar este sitio web en una computadora de pantalla grande, no ha sido ajustada para ser responsive en dispostivos móviles.</p>
+        </footer>
+    </body>
+</html>
